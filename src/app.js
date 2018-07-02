@@ -6,9 +6,9 @@ import './app.css'
 class App extends Component {
   config = {
     pages: [
+      'pages/pernal/pernal',
       'pages/message/message',
       'pages/index/index',
-      'pages/pernal/pernal',
     ],
     window: {
       backgroundTextStyle: 'light',
@@ -19,9 +19,14 @@ class App extends Component {
     tabBar: {
       list: [{
         pagePath: "pages/index/index",
-        iconPath:'./img/tv.png',
+        iconPath:'./img/index.png',
         text:'首页',
-        selectedIconPath: "./img/tv_xq.png"
+        selectedIconPath: "./img/index_tv.png"
+      },{
+        pagePath: "pages/pernal/pernal",
+        iconPath:'./img/panel.png',
+        text:'动态',
+        selectedIconPath: "./img/panel_tv.png"
       }, {
         pagePath: "pages/message/message",
         iconPath:'./img/xq.png',

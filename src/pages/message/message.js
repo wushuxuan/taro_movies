@@ -60,7 +60,7 @@ export default class Index extends Component {
                   <View>
                     <View class="message_list_item_title">
                       <View>{item.name}</View>
-                      <View>2018年3月18日</View>
+                      <View class="message_list_item_time">2018年3月18日</View>
                     </View>
                     <View class="message_list_item_describe">{item.content}</View>
                   </View>

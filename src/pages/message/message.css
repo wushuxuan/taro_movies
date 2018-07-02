@@ -4,7 +4,7 @@
 .message_list_item>View:first-child Image{width:75px;height:75px;}
 .message_list_item>View:nth-child(2){margin-left: 48px;display: flex;flex-flow: column;}
 .message_list_item_title{ display:block;color:#fff;font-size: 0.8em;display:flex;flex-flow: row;}
-.message_list_item_title
+.message_list_item_time{ color:rgba(255,255,255,0.45);font-size: 0.7em;flex:1;text-align: right;line-height: normal;}
 .message_list_item_describe{ color:rgba(255,255,255,0.45);font-size: 0.6em;padding:5px 0px;width:520px;overflow: hidden;line-height:25px;text-overflow:ellipsis; white-space:nowrap;}
 
 /*全部私信*/
