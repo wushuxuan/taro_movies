@@ -1,0 +1,19 @@
+.index_container{display:flex;flex-flow: row;}
+.index_view{width:5%;background-color: #312E4D;height:60vh;margin-top:8vh}
+
+/*轮播图*/
+swiper{width:80%;height:70vh;margin:0px auto;padding-top: 5%}
+.img_view{width:90%;height:60vh;text-align: center;background-color: #312E4D;margin:5vh auto 0vh;}
+swiper image{width:80%;height:80%;margin-top:-5vh;}
+.img_bottom{width:70%;margin:0px auto;}
+.img_bottom>view{text-align: left;}
+.img_title{color:#fff;font-size: 0.85em;text-align: left;margin-bottom:5px;height:1.5em;line-height: 1.5em}
+Text{font-size:0.7em;color:#Fff;margin-left: 10px;color:#FFAA00;}
+.img_auther{color:rgba(255,255,255,0.45);font-size: 0.55em;margin-top: 10px;}
+
+/*热门推荐*/
+.index_content{width:90%;margin:3% auto;}
+.index_content .index_title{color:#fff;font-size: 0.8em;font-weight:400;}
+.index_recommended{min-width:100vm;display: flex;flex-flow: row;margin-top:24px;}
+.index_recommended Image{width:650px;height:200px;}
+.index_recommended Image:first-child{margin-right:24px;}
