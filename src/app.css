@@ -8,21 +8,25 @@ page{
   background-color:#1E1F33;
 }
 @font-face {
-  font-family: 'iconfont';  /* project id 726759 */
-  src: url('//at.alicdn.com/t/font_726759_fanj8ni039.eot');
-  src: url('//at.alicdn.com/t/font_726759_fanj8ni039.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_726759_fanj8ni039.woff') format('woff'),
-  url('//at.alicdn.com/t/font_726759_fanj8ni039.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_726759_fanj8ni039.svg#iconfont') format('svg');
+  font-family: 'iconfont';  /* project id 730503 */
+  src: url('http://at.alicdn.com/t/font_730503_b5h7ggr23io.eot');
+  src: url('http://at.alicdn.com/t/font_730503_b5h7ggr23io.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_730503_b5h7ggr23io.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_730503_b5h7ggr23io.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_730503_b5h7ggr23io.svg#iconfont') format('svg');
 }
 .iconfont{
     font-family:"iconfont" !important;
-    font-size:16px;font-style:normal;
+    font-size:27px;font-style:normal;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
+    margin-right: 20px;color:#4C4C80;
 }
-.icon-dialogue:before { content: "\e605"; }/*评论量*/
+.icon-love:before { content: "\e658"; }/*喜爱*/
+.icon-startCollect:before { content: "\e651"; }/*加星收藏*/
+.icon-share:before { content: "\e650"; }/*分享*/
+.icon-comment:before { content: "\e61e"; }/*对话信息*/
 
 /*热门推荐*/
 .index_content{width:90%;margin:3% auto;}

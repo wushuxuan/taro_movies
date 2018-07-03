@@ -12,6 +12,12 @@ export default class Index extends Component {
       {url:'http://img.hb.aicdn.com/76209edea4d62e40e940c4e6eaa1ebf4c95cded184eb3-NOLuY4_fw658',dt_date:'5月30日 23：05',
         start:5,nonestart:0,startTitle:'10.0',title:'银翼杀手2049',auther:'路易斯·莱特里尔',date:'美国 2013',desc:'科幻/惊悚',
         content:'作为一部续作在风格以及基调上表现出与原作惊人的统一，其作为一部独立的电影更是展现出了近几十年科幻领域都鲜有匹敌的优秀质量。'
+      },{url:'http://img.hb.aicdn.com/76209edea4d62e40e940c4e6eaa1ebf4c95cded184eb3-NOLuY4_fw658',dt_date:'5月30日 23：05',
+        start:5,nonestart:0,startTitle:'10.0',title:'银翼杀手2049',auther:'路易斯·莱特里尔',date:'美国 2013',desc:'科幻/惊悚',
+        content:'作为一部续作在风格以及基调上表现出与原作惊人的统一，其作为一部独立的电影更是展现出了近几十年科幻领域都鲜有匹敌的优秀质量。'
+      },{url:'http://img.hb.aicdn.com/76209edea4d62e40e940c4e6eaa1ebf4c95cded184eb3-NOLuY4_fw658',dt_date:'5月30日 23：05',
+        start:5,nonestart:0,startTitle:'10.0',title:'银翼杀手2049',auther:'路易斯·莱特里尔',date:'美国 2013',desc:'科幻/惊悚',
+        content:'作为一部续作在风格以及基调上表现出与原作惊人的统一，其作为一部独立的电影更是展现出了近几十年科幻领域都鲜有匹敌的优秀质量。'
       },
     ],
     recommended_img:[
@@ -70,6 +76,10 @@ export default class Index extends Component {
                 </View>
                 <View class="comment_view_bottom">
                   <View class="comment_view_bottom_date">{item.dt_date}</View>
+                  <span class="iconfont icon-love"></span>
+                  <span class="iconfont icon-comment"></span>
+                  <span class="iconfont icon-startCollect"></span>
+                  <span class="iconfont icon-share"></span>
                 </View>
               </View>
             </View>
