@@ -7,6 +7,7 @@ class App extends Component {
   config = {
     pages: [
       'pages/pernal/pernal',
+      'pages/dynamic/dynamic',
       'pages/message/message',
       'pages/index/index',
     ],
@@ -23,7 +24,7 @@ class App extends Component {
         text:'首页',
         selectedIconPath: "./img/index_tv.png"
       },{
-        pagePath: "pages/pernal/pernal",
+        pagePath: "pages/dynamic/dynamic",
         iconPath:'./img/panel.png',
         text:'动态',
         selectedIconPath: "./img/panel_tv.png"

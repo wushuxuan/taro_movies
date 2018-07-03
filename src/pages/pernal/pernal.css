@@ -1,37 +1,29 @@
-.comments{ width:100%;display:flex;flex-flow: column;}
-.comment_flex{ display:flex;flex-flow: row;padding:32px}
-.comment_ava{ width:75px;height:75px;border-radius: 50%;}
-.comment_ava Image{ width:75px;height:75px;border-radius: 50%;}
-.comment_view{ flex:1;margin-left: 32px;}
-/*动态顶部*/
-.comment_view_header{ width:100%;display:flex;flex-flow: row;}
-.comment_view_header_left{ flex:1;color:#fff;font-size:0.9em;height:75px;line-height: 75px}
-.comment_view_header_right{ text-align: right;display:flex;flex-flow: row;height:75px;line-height: 75px}
-.comment_view_header_right Text{ font-size:0.65em;color:#FFA700;}
-.img_start{ height:70px;line-height: 70px;margin-left: 12px}
-.comment_view_header_text{ color:rgba(255,255,255,0.55);font-size: 0.6em;height:75px;line-height: 75px;}
-/*动态内容*/
-.comment_view_content{ color:rgba(255,255,255,0.95);font-size: 0.7em;line-height: 1.7em;}
-/*动态电影*/
-.comment_view_movies{ background:#2F2E4E;padding:12px;margin: 12px 0px;display:flex;flex-flow: row;padding:12px;}
-.comment_view_movies_left{width:140px;height:inherit;}
-.comment_view_movies_left image{width:140px;height:200px;}
-.comment_view_movies_right{margin-left: 24px;flex:1;}
-.comment_view_movies_right_title{ color:#fff;font-size:0.75em;margin-bottom:24px;}
-.comment_view_movies_right_text{ color:rgba(133,133,133,0.55);font-size: 0.5em;line-height: 1.7em}
-.comment_view_movies_right_bottom_text{color:rgba(133,133,133,0.55);font-size: 0.5em;text-align: right;margin-top:24px;}
-/*动态日期*/
-.comment_view_bottom{ width:100%;display:flex;flex-flow: row;margin-top:24px;}
-.comment_view_bottom_date{ color:rgba(133,133,133,0.55);font-size: 0.6em;flex:1;}
+/*个人信息*/
+.pernal_header{ display:flex;flex-flow:row;padding:32px;}
+.index_content_comment_flex_ava{ width:95px;height:95px;margin:0px auto;border-radius: 50%;padding:15px;
+  background:rgba(79,73,131,0.9);postion:relative;}
+.index_content_comment_flex_ava::after{ position: absolute;z-index:100;content: '';width:12px;height:12px;margin-left:-5px;border-radius: 50%;background:#FF33D6;box-shadow: 0px 0px 2px 2px #FF33D6;}
+.index_content_comment_flex_ava image{  width:95px;height:95px;border-radius: 50%;box-shadow: 0px 0px 8px 2px #ccc}
 
-/*影友推荐*/
-.index_content_comment{display:flex;flex-flow: row;margin-top:24px;}
-.index_content_comment_flex{background:#2F2E4E;padding:24px;flex:1;display: flex;flex-flow: column;}
-.index_content_comment_flex:nth-child(2){margin:0px 24px;}
-.index_content_comment_flex_ava{ width:55px;height:55px;margin:0px auto;border-radius: 50%;padding:10px;
-  background:rgba(79,73,131,0.9);}
-.index_content_comment_flex_ava image{  width:55px;height:55px;border-radius: 50%;box-shadow: 0px 0px 8px 2px #ccc}
-.index_content_comment_flex_guanzhu{width:85%;margin:0px auto;background:#fff;color:#2F2E4E;height:50px;line-height: 50px;
-  text-align: center;border-radius:25px;font-size:27px;}
-.index_content_comment_flex_zan{color:rgba(255,255,255,0.65);text-align: center;font-size:27px;margin:10px auto 20px;}
-.index_content_comment_flex_title{color:#fff;font-size:30px;text-align: center;margin-top:15px;}
+.pernal_header_right{ flex:1;margin-left: 48px;display:flex;flex-flow: column;margin-top:12px;}
+.pernal_header_right_flex_title{ color:#fff;font-size:0.8em;height:40px;line-height: 40px;}
+.pernal_header_right_flex_number{ height:80px;margin-top:24px;display:flex;flex-flow: row;}
+.pernal_header_right_flex_number_flex{display:flex;flex-flow: column;margin-right: 60px}
+.pernal_header_right_flex_number_flex_title{ font-size:0.6em;color:rgba(255,255,255,0.55);height:40px;line-height:40px;}
+.pernal_header_right_flex_number_flex_num{ color:#fff;font-size:0.9em;margin-top:12px;}
+
+/*列表*/
+.pernal_list{ display:flex;flex-flow: row;margin:24px auto;padding:32px;}
+.pernal_list_flex{ display:flex;flex-flow: column;flex:1;}
+.pernal_list_flex_img{width:100px;height:100px;margin: 0px auto}
+.pernal_list_flex>View{text-align: center;color:#fff;font-size: 0.7em;}
+.pernal_list_flex_img image{ width:100px;height:100px;}
+.pernal_list_flex_title{ margin-top:6px;}
+
+/*观看历史*/
+.pernal_content{width:90%;margin:3% auto;}
+.pernal_content .index_content_header{display: flex;flex-flow: row;}
+.pernal_content .index_title{color:#fff;font-size: 0.8em;font-weight:400;height:2em;line-height:2em;flex:1;}
+.pernal_content_view{ display:flex;flex-flow: row;}
+.pernal_content_view_flex{flex:1;text-align: center}
+.pernal_content_view_flex image{width:150px;height:200px;margin:0px 32px 0px 0px;}
