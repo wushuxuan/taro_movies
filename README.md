@@ -3,7 +3,7 @@
 
 
 ### 首页
-![Alt text](https://raw.githubusercontent.com/wushuxuan/taro_movies/master/img/example/index.jpg)
+![Alt text](https://raw.githubusercontent.com/wushuxuan/taro_movies/master/img/example/index.jpg =200x300)
 
 
 ### 消息页面
