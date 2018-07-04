@@ -10,9 +10,9 @@ export default class Index extends Component {
   state={
    imgUrls: [
       {url:'http://img.hb.aicdn.com/76209edea4d62e40e940c4e6eaa1ebf4c95cded184eb3-NOLuY4_fw658',start:5,nonestart:0,startTitle:'10.0',title:'银翼杀手2049',auther:'路易斯·莱特里尔',date:'美国 2013'},
-      {url:'http:////img.hb.aicdn.com/e147d4d3782845bf8c5973f0292edce45794bf3427ebf-8G2w3J_fw658',start:4,nonestart:1,startTitle:'8.0',title:'一念无名',auther:'刘若英',date:'中国香港 2018'},
-      {url:'http:////img.hb.aicdn.com/d8ef95cbabec89e6806e0199551a44adb62d6e84713bd-15alYc_fw236',start:3,nonestart:2,startTitle:'6.0',title:'归来',auther:'张艺谋',date:'中国内地 2014'},
-      {url:'http:////img.hb.aicdn.com/3c4287cc12451bef09c5e85857e56a96ca57e31344f5e-16DQuH_fw236',start:5,nonestart:0,startTitle:'10.0',title:'Now You See Me',auther:'路易斯·莱特里尔',date:'美国 2013'},
+      {url:'http://img.hb.aicdn.com/e147d4d3782845bf8c5973f0292edce45794bf3427ebf-8G2w3J_fw658',start:4,nonestart:1,startTitle:'8.0',title:'一念无名',auther:'刘若英',date:'中国香港 2018'},
+      {url:'http://img.hb.aicdn.com/b15d74a8b8ae30cf316db12b299ce716f50ff97a1944f-HOI37n_fw658',start:3,nonestart:2,startTitle:'6.0',title:'Brave',auther:'马克∙安德鲁斯、布兰达∙查普曼',date:'美国 2012'},
+      {url:'http://img.hb.aicdn.com/3c4287cc12451bef09c5e85857e56a96ca57e31344f5e-16DQuH_fw236',start:5,nonestart:0,startTitle:'10.0',title:'Now You See Me',auther:'路易斯·莱特里尔',date:'美国 2013'},
     ],
     recommended_img:[
       'http://diuber-guanche.oss-cn-shanghai.aliyuncs.com/IMG153025520945037409',
@@ -30,6 +30,12 @@ export default class Index extends Component {
 
   componentDidHide () { }
 
+  LinkMovies = ()=>{
+     wx.navigateTo({
+       url:'./../movies/movies'
+     })
+  }
+
   render () {
     const {imgUrls,recommended_img} = this.state;
     return (
@@ -40,7 +46,7 @@ export default class Index extends Component {
             <block>
             {imgUrls.map((item)=>
               <Swiper-item>
-                <View class="img_view">
+                <View class="img_view" onClick={this.LinkMovies}>
                   <image src={item.url} class="slide-image" />
                   <View class="img_bottom">
                     <View class="img_title">{item.title}</View>

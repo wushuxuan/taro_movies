@@ -1,0 +1,22 @@
+/*轮播图*/
+.img_view{width:35%;text-align: center;margin:0vh auto;}
+image{width:95%;}
+.img_bottom{width:90%;margin:0px auto;}
+.img_bottom>view{text-align: center;}
+.img_title{color:#fff;font-size: 0.75em;text-align: left;margin-bottom:5px;height:1.5em;line-height: 1.5em}
+Text{font-size:0.6em;color:#Fff;margin-left: 10px;color:#FFAA00;}
+.img_auther{color:rgba(255,255,255,0.45);font-size: 0.6em;margin-top: 10px;}
+.movies_button{ width:70%;margin:24px auto;font-size:0.6em;height:2.2em;border-radius: 1.1em;line-height:2.2em;color:#fff;
+  background: -webkit-linear-gradient(#ff3399, #FF34F1);box-shadow: 0px 0px 5px #FF34F1;}
+
+.movies_describe{color:#fff;font-size:0.6em;width:90%;margin:50px auto 24px;overflow: hidden;line-height:1.8em;display: -webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp: 3;text-overflow: ellipsis;}
+
+
+/*演员表*/
+.index_prople_List{ display:flex;flex-flow: row;}
+.index_prople_List_flex{ flex:1;margin-right:24px;text-align: center;}
+.index_prople_List_flex image{ width:80px;height:80px;border-radius: 50%;margin:10px auto;}
+.index_prople_List_flex_text{ width:100%;color:rgba(255,255,255,0.65);overflow: hidden;height:1.8em;font-size:0.6em;line-height: 1.8em;text-overflow: ellipsis;}
+
+.flex-wrap:last-child image{ position:relative;}
+.flex-wrap:last-child image::after{ position:absolute;top:0px;right:0px;left:0px;bottom:0px;content:'+34';text-align: center;color:rgba(255,255,255,0.75);line-height: 180px;z-index:100;background:rgba(0,0,0,0.65);}

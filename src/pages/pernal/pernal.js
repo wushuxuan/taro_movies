@@ -37,6 +37,12 @@ export default class Index extends Component {
 
   componentDidHide () { }
 
+  LinkMovies = ()=>{
+     wx.navigateTo({
+       url:'./../movies/movies'
+     })
+  }
+
   render () {
     const {pernalList,watchList,aboutList} = this.state;
     return (
@@ -73,7 +79,7 @@ export default class Index extends Component {
         <View class="pernal_content">
           <View class="index_title">观看历史</View>
            <View>
-              <View class="pernal_content_view" style="margin-top:12px;" >
+              <View class="pernal_content_view" style="margin-top:12px;" onClick={this.LinkMovies}>
                 {
                   watchList.map((item)=>
                   <View class="pernal_content_view_flex" >

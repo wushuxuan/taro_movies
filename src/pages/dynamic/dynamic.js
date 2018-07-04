@@ -5,7 +5,7 @@ import '../../app.css'
 
 export default class Index extends Component {
   config = {
-    navigationBarTitleText: '影力星球'
+    navigationBarTitleText: '影力动态'
   }
   state={
    CommentUrls: [

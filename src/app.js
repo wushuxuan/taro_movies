@@ -6,10 +6,11 @@ import './app.css'
 class App extends Component {
   config = {
     pages: [
+      'pages/index/index',
+      'pages/movies/movies',
       'pages/pernal/pernal',
       'pages/dynamic/dynamic',
       'pages/message/message',
-      'pages/index/index',
     ],
     window: {
       backgroundTextStyle: 'light',

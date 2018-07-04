@@ -32,5 +32,9 @@ page{
 .index_content{width:90%;margin:3% auto;}
 .index_content .index_content_header{display: flex;flex-flow: row;}
 .index_content .index_title{color:#fff;font-size: 1em;font-weight:400;height:2em;line-height:2em;flex:1;}
-.index_content .index_badge{color:#515360;border-radius: 1em;margin-top: 0.8em;
-  padding:5px 15px;font-size: 0.5em;border:1px solid #515360;height:1.3em;line-height:1.3em;}
+.index_content .index_badge{color:#515360;border-radius: 1em;margin-top: 0.8em;padding:5px 15px;font-size: 0.5em;border:1px solid #515360;height:1.3em;line-height:1.3em;}
+
+/*瀑布流*/
+.free-WaterfallFlow{width:94%;column-count:2;/*column-count 属性规定元素应该被分隔的列数：*/}
+.free-WaterfallFlow .flex-wrap{break-inside: avoid; box-sizing: border-box; padding: 10px;}
+.flex-wrap Image{width:110%;margin:0 auto;}
