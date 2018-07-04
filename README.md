@@ -3,7 +3,7 @@
 
 
 ### 首页
-![Alt text]('http://diuber-guanche.oss-cn-shanghai.aliyuncs.com/IMG153067754449585274')
+![Alt text]('https://github.com/wushuxuan/taro_movies/blob/master/img/example/index.jpg?raw=true')
 
 
 ### 消息页面
