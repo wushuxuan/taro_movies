@@ -3,11 +3,11 @@
 
 
 ### 首页
-![Alt text](https://raw.githubusercontent.com/wushuxuan/taro_movies/master/img/example/index.jpg){:width="250px"}
+<img src="https://raw.githubusercontent.com/wushuxuan/taro_movies/master/img/example/index.jpg"  width="250"/>
 
 
 ### 消息页面
-![Alt text]('http://diuber-guanche.oss-cn-shanghai.aliyuncs.com/IMG153067754433518079')
+![]('http://diuber-guanche.oss-cn-shanghai.aliyuncs.com/IMG153067754433518079')
 
 
 
