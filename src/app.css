@@ -31,6 +31,6 @@ page{
 /*热门推荐*/
 .index_content{width:90%;margin:3% auto;}
 .index_content .index_content_header{display: flex;flex-flow: row;}
-.index_content .index_title{color:#fff;font-size: 0.8em;font-weight:400;height:2em;line-height:2em;flex:1;}
+.index_content .index_title{color:#fff;font-size: 1em;font-weight:400;height:2em;line-height:2em;flex:1;}
 .index_content .index_badge{color:#515360;border-radius: 1em;margin-top: 0.8em;
   padding:5px 15px;font-size: 0.5em;border:1px solid #515360;height:1.3em;line-height:1.3em;}

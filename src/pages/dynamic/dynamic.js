@@ -1,6 +1,6 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View, Text } from '@tarojs/components'
-import './pernal.css'
+import './dynamic.css'
 import '../../app.css'
 
 export default class Index extends Component {
@@ -31,7 +31,7 @@ export default class Index extends Component {
       'http://diuber-guanche.oss-cn-shanghai.aliyuncs.com/IMG153025520921075491'
     ],
     CommentPeople: [
-      {ava:'http://img1.touxiang.cn/uploads/20130626/26-054458_291.jpg',name:'林萌C',zan:2869,},
+      {ava:'http://img.hb.aicdn.com/9cb71b3c65cb3b056360905c37d397c1ead4477c4fee9-nfNyYM_sq140sf',name:'北谷町',zan:2869,},
       {ava:'http://img.hb.aicdn.com/76b4f807e213cd2ad1e0a636912ebd8a277fe36c8c6b-Rc8xik_sq140sf',name:'妖瞳婆婆',zan:4668,},
       {ava:'http://img.hb.aicdn.com/e1ce4f7a05e4972e511c6f1299d4db0472e2a9f2dc14-6EvgDu_sq320',name:'森染',zan:3060,},
     ]
@@ -55,10 +55,10 @@ export default class Index extends Component {
           {
             CommentUrls1.map((item)=>
             <View class="comment_flex">
-              <View class="comment_ava"><Image src="http://img1.touxiang.cn/uploads/20130626/26-054458_291.jpg"/></View>
+              <View class="comment_ava"><Image src="http://img.hb.aicdn.com/9cb71b3c65cb3b056360905c37d397c1ead4477c4fee9-nfNyYM_sq140sf"/></View>
               <View class="comment_view">
                 <View class="comment_view_header">
-                  <View class="comment_view_header_left">林萌C</View>
+                  <View class="comment_view_header_left">北谷町</View>
                   <View class="comment_view_header_right">
                     <View class="comment_view_header_text">给出评价</View>
                     <View class="img_start">
