@@ -9,12 +9,12 @@
 
 
 # 部分页面截图
-
-### 首页
+<div style="display:flex;flex-flow:row;">
 <img src="https://raw.githubusercontent.com/wushuxuan/taro_movies/master/img/example/index.jpg"  width="200"/>
 <img src="https://raw.githubusercontent.com/wushuxuan/taro_movies/master/img/example/meesage.jpg"  width="200"/>
 <img src="https://raw.githubusercontent.com/wushuxuan/taro_movies/master/img/example/panel.jpg"  width="200"/>
 <img src="https://raw.githubusercontent.com/wushuxuan/taro_movies/master/img/example/pernal.jpg"  width="200"/>
+</div>
 
 
 
